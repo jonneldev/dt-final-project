@@ -1,0 +1,91 @@
+/* NavbarHero CSS Styles
+   Author: Elvin Manuel Luces
+   Version: 1.0.0
+   File Description: Main Css file of the NavBar and Hero Components
+*/
+/************************
+01.General
+02.NavBar
+03.Hero
+************************/
+
+/* 01.General */
+
+.btn {
+  padding: 8px 24px;
+  border: 1px solid;
+  font-size: 16px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btn.btn-gradient-primary {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#c22026),
+    to(#c400cb)
+  );
+  background: linear-gradient(to right, #c22026 0%, #c400cb 100%);
+  border: none;
+  color: #fff;
+  -webkit-box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+  box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+}
+
+/* 02.NavBar */
+.navbar-custom {
+  padding: 20px 0px;
+  padding-right: 0 !important;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 999;
+  margin-bottom: 0px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #1e1f22;
+  border-radius: 8px;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+}
+
+/* 03.Hero */
+.hero-episodes {
+  background-image: url("../../public/images/background.jpg");
+  position: relative;
+  background-size: 110% auto;
+  background-position: center center;
+  width: 100%;
+  padding: 350px 0 50px;
+  margin-bottom: 20px;
+}
+/* Pseudo-element for the fade effect */
+.hero-episodes::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 200px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #000 100%);
+  z-index: 1;
+}
+
+.hero-episodes .container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-episodes .btn {
+  padding: 10px 42px;
+  margin-bottom: 20px;
+}
