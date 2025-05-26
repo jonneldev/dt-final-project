@@ -5,6 +5,38 @@ import "../css/NavBarHero.css";
 const NavBarHero = () => {
   return (
     <div>
+      {/* SVG Icon */}
+      <svg style={{ display: "none" }}>
+        <symbol
+          id="user-outline-icon"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="32" cy="32" r="32" fill="#111" />
+          <g
+            fill="none"
+            stroke="white"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <circle cx="32" cy="24" r="6" />
+            <path d="M20 44c0-6.627 5.373-12 12-12s12 5.373 12 12" />
+          </g>
+        </symbol>
+        <symbol
+          id="burger-icon"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="32" cy="32" r="32" fill="none" />
+          <g stroke="white" stroke-width="4" stroke-linecap="round">
+            <line x1="16" y1="20" x2="48" y2="20" />
+            <line x1="16" y1="32" x2="48" y2="32" />
+            <line x1="16" y1="44" x2="48" y2="44" />
+          </g>
+        </symbol>
+      </svg>
       {/* <!--Navbar Start--> */}
       <nav className="navbar navbar-expand-lg fixed-top navbar-custom">
         <div className="container">
@@ -13,12 +45,14 @@ const NavBarHero = () => {
             <img src="images/logo.png" alt="" />
           </a>
           {/* NAVBAR TOGGLE BUTTON */}
-          <button className="navbar-account" type="button">
+          <button className="navbar-account rounded-pill" type="button">
+            <svg className="icon" width="32" height="32">
+              <use href="#burger-icon"></use>
+            </svg>
             <span>
-              <i className="fa fa-bars"></i>
-            </span>
-            <span>
-              <i className="fa fa-user-circle"></i>
+              <svg className="icon" width="32" height="32">
+                <use href="#user-outline-icon"></use>
+              </svg>
             </span>
           </button>
         </div>
