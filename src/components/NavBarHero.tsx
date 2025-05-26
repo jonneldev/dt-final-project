@@ -31,9 +31,9 @@ const NavBarHero = () => {
         >
           <circle cx="32" cy="32" r="32" fill="none" />
           <g stroke="white" stroke-width="4" stroke-linecap="round">
-            <line x1="16" y1="20" x2="48" y2="20" />
-            <line x1="16" y1="32" x2="48" y2="32" />
-            <line x1="16" y1="44" x2="48" y2="44" />
+            <line x1="16" y1="22" x2="48" y2="22" />
+            <line x1="16" y1="34" x2="48" y2="34" />
+            <line x1="16" y1="46" x2="48" y2="46" />
           </g>
         </symbol>
       </svg>
