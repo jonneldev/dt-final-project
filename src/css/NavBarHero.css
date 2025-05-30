@@ -18,6 +18,13 @@
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+.btn.btn-default-dark {
+  background-color: #111;
+  border: none;
+  color: #fff;
+  -webkit-box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+  box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+}
 .btn.btn-gradient-primary {
   background: -webkit-gradient(
     linear,
@@ -56,6 +63,30 @@
   border: none;
   font-size: 24px;
   font-weight: normal;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropdown-menu {
+  background-color: #292831;
+  border: none;
+  border-radius: 8px;
+
+  width: 320px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+.dropdown-menu small {
+  color: #666;
+  font-size: 14px;
+}
+.dropdown-menu li {
+  padding-left: 10px;
+}
+.dropdown-menu li .row {
+  padding: 0px 20px;
 }
 
 /* 03.Hero */
