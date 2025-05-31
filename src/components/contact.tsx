@@ -1,5 +1,5 @@
 
-export default function Contact() {
+export default function GetInTouchForm() {
   return(
     <section>
     <div className="showcase-form">
