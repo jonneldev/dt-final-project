@@ -1,3 +1,4 @@
+import './Styles/contact.css';
 
 export default function GetInTouchForm() {
   return(
