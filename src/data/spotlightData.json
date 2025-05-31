@@ -1,0 +1,22 @@
+[
+  { 
+    "title": "Phantom of the Opera", 
+    "image": "/images/spotlight-image1.png" 
+  },
+  { 
+    "title": "Volta (Cirque De Soleil)", 
+    "image": "/images/spotlight-image2.png" 
+  },
+  { 
+    "title": "SF Opera Feature", 
+    "image": "/images/spotlight-image3.png" 
+  },
+  { 
+    "title": "Head Over Heels", 
+    "image": "/images/spotlight-image4.png" 
+  },
+  { 
+    "title": "Virtual Reality", 
+    "image": "/images/spotlight-image5.png" 
+  }
+]
