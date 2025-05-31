@@ -7,13 +7,12 @@ interface SpotlightCardProps {
 
 export default function SpotlightCard({ image, title }: SpotlightCardProps) {
   const cardStyle: CSSProperties = {
-    flex: "0 0 auto", 
     width: "282px",
     height: "390px",
-    marginRight: "1em",
+    flexShrink: 0,
     position: "relative",
     borderRadius: "16px",
-    overflow: "hidden",
+    overflow: "visible",
     cursor: "pointer",
   };
 

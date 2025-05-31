@@ -7,7 +7,8 @@
 .App {
   background-color: #000000;
   color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
   height: 100dvh;
-  font-family: "Open Sans";
+  overflow-y: auto;
+  max-width: 1440px;
 }
-
