@@ -28,7 +28,7 @@ export default function PerformanceSpotlights() {
   };
 
   return (
-    <div className='container'>
+    <div className='componentContainer'>
       <h4 style={titleStyle}>Performance Spotlights</h4>
       <div style={cardContainer}>
         {spotlights.map((spotlight) => (

@@ -11,4 +11,10 @@
   height: 100dvh;
   overflow-y: auto;
   max-width: 1440px;
+  margin: 0 auto; 
+}
+
+.componentContainer {
+  max-width: 1200px;
+  margin: 0 auto;
 }

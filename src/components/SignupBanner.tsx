@@ -14,6 +14,7 @@ export default function SignupBanner() {
     alignItems: "center",
     textAlign: "center",
     marginTop: "3em",
+    border: "none"
   }
 
   return (

@@ -12,7 +12,7 @@ export default function Episodes() {
   };
 
   return (
-    <div className="container">
+    <div className="componentContainer">
       <h2 style={sectionTitle}>Episodes</h2>
       <Episode sectionTitle="Dance" dataKey="Dance" />
       <Episode sectionTitle="Jazz" dataKey="Jazz" />

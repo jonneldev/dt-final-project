@@ -39,7 +39,6 @@ export default function EpisodeSection({ sectionTitle, dataKey }: EpisodeSection
     display: 'flex',
     flexDirection: 'row',
     gap: '1em',
-    marginRight: '6.5em',
   };
 
   const buttonStyle: CSSProperties = {
