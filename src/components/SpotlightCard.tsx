@@ -21,6 +21,7 @@ export default function SpotlightCard({ image, title }: SpotlightCardProps) {
     height: "100%",
     objectFit: "cover",
     display: "block",
+    outline: "none",
   };
 
   const buttonStyle: CSSProperties = {
@@ -42,14 +43,13 @@ export default function SpotlightCard({ image, title }: SpotlightCardProps) {
   const titleStyle: CSSProperties = {
     position: "absolute",
     bottom: "1.5em",
-    left: "50%",
-    transform: "translateX(-50%)",
     width: "100%",
     textAlign: "center",
     fontSize: "18px",
     fontWeight: 700,
     color: "white",
     textShadow: "2px 2px 5px rgba(0, 0, 0, 0.6)",
+    margin: "0 auto"
   };
 
   return (
