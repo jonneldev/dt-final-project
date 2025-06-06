@@ -4,19 +4,20 @@ export default function Footer() {
     return (
       <footer className="footer">
       <div className="footer-content">
-        <h1 className="footer-logo">Red Curtain Addict</h1>
+
+        <img src="/images/logo.png" className='Logo' />
         
         <div className="footer-links">
           <div className="links-column">
-            <h3>Events</h3>
-            <h3>News</h3>
-            <h3>Episodes</h3>
+            <a href="#events" className="footer-link">Events</a>
+            <a href="#news" className="footer-link">News</a>
+            <a href="#episodes" className="footer-link">Episodes</a>
           </div>
           <div className="links-column">
-            <h3>For professionals</h3>
-            <h3>About us</h3>
-            <h3>Contact us</h3>
-            <h3>Terms & conditions</h3>
+            <a href="#professionals" className="footer-link">For professionals</a>
+            <a href="#about" className="footer-link">About us</a>
+            <a href="#contact" className="footer-link">Contact us</a>
+            <a href="#terms" className="footer-link">Terms & conditions</a>
           </div>
         </div>
         

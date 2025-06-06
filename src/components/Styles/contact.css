@@ -3,10 +3,10 @@ section {
     display: flex;
     justify-content: center;
     background-color: #000;
+    border-bottom: solid 1px #aaaaaa36 ;
 }
 
 .showcase-form {
-    font-family: sans-serif;
     background-color: #000;
     display: flex;
     flex-direction: column;
