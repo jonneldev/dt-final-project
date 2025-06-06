@@ -4,9 +4,7 @@ export default function Footer() {
     return (
       <footer className="footer">
       <div className="footer-content">
-
-        <img src="/images/logo.png" className='Logo' />
-        
+        <img src="/images/logo.png" className="footer-logo" />
         <div className="footer-links">
           <div className="links-column">
             <a href="#events" className="footer-link">Events</a>
@@ -22,11 +20,20 @@ export default function Footer() {
         </div>
         
         <div className="footer-social">
-          <p>Follow us on social media and join our growing community of performing arts enthusiasts.</p>
+          <p className="Tag">Follow us on social media and join our growing<br /> community of performing arts enthusiasts.</p>
           <div className="social-icons">
             
-            <a href="https://instagram.com" aria-label="Instagram">
-              <i className="fab fa-instagram"></i>
+            <a href="#" className="footer-instagram">
+              <img src='/images/instagram.svg' />
+            </a>
+            <a href="#" className="footer-facebook">
+              <img src='/images/FB.svg' />
+            </a>
+            <a href="#" className="footer-twitter">
+              <img src='/images/Twitter.svg' />
+            </a>
+            <a href="#" className="footer-youtube">
+              <img src='/images/YT.svg' />
             </a>
 
           </div>
