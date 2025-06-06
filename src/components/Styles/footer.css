@@ -1,6 +1,4 @@
-*{
-  font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .footer-logo{
   max-width: 64px;
@@ -8,6 +6,7 @@
 }
 
 .footer{
+  font-family: 'Open Sans', sans-serif;
   margin: auto;
   width: 1200px;
   background-color: black;
