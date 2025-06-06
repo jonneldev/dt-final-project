@@ -20,9 +20,14 @@ export default function Footer() {
         </div>
         
         <div className="footer-social">
-          <p className="Tag">Follow us on social media and join our growing<br /> community of performing arts enthusiasts.</p>
-          <div className="social-icons">
-            
+          <div className="tag">
+            <span className="block-line">Follow us on social media and join our growing</span>
+            <br />
+            <span className="block-line-spaced">community of performing arts enthusiasts.</span>
+          </div>
+          
+          
+          <div className="social-icons">  
             <a href="#" className="footer-instagram">
               <img src='/images/instagram.svg' />
             </a>

@@ -47,7 +47,8 @@ section {
 }
 
 input {
-    min-width: 350px;
+    height: 56px;
+    min-width: 384px;
     flex: 1 1 600px;
     padding: 1rem;
     border-radius: 12px;
@@ -69,6 +70,6 @@ input::placeholder {
     border: none;
     border-radius: 999px;
     color: white;
-    background: linear-gradient(90deg, #ff2d55, #8e2de2);
+    background: linear-gradient(90deg, #C22026, #C400CB);
     cursor: pointer;
 }
