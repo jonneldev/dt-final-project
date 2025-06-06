@@ -1,0 +1,16 @@
+.footer{
+  background-color: black;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-links {
+  display: flex;
+  justify-content: start;
+  padding: 1rem;
+}
+.footer-links .footer-column{
+  padding: 1rem;
+  margin: 1rem;
+}
