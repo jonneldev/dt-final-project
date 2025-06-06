@@ -4,7 +4,7 @@ export default function GetInTouchForm() {
   return(
     <section>
     <div className="showcase-form">
-      <h1 className="title">Showcase your digital performance with us!</h1>
+      <h1 className="title">Showcase your digital <br />performances with us!</h1>
       <p>Get in touch with us below</p>
 
     <div className="field-form">
