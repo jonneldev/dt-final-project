@@ -2,19 +2,17 @@ import React from "react";
 import "./App.css";
 import PerformanceSpotlights from "./components/PerformanceSpotlights";
 import Episodes from "./components/Episodes";
-import Search from "./components/Search";
-import ContactForm from "./components/ContactForm";
+import Contact from "./components/contact"
 import NavBarHero from "./components/NavBarHero";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 function App() {
   
   return (
     <div className="App">
       <NavBarHero />
       <PerformanceSpotlights />
-      <Search />
       <Episodes />
-      <ContactForm />
+      <Contact />
       <Footer />
     </div>
   );
