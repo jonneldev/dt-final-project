@@ -73,7 +73,6 @@
   background-color: #292831;
   border: none;
   border-radius: 8px;
-
   width: 320px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-size: 14px;
@@ -81,6 +80,11 @@
 .dropdown-menu small {
   color: #666;
   font-size: 14px;
+}
+.dropdown-menu li p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
 .dropdown-menu li {
   padding-left: 10px;

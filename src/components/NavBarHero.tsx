@@ -1,4 +1,3 @@
-import React from "react";
 import "../css/bootstrap.min.css";
 import "../css/NavBarHero.css";
 
@@ -139,7 +138,7 @@ const NavBarHero = () => {
             </button>
             <ul className="dropdown-menu dropdown-menu-end bg-dark text-white">
               <li>
-                <p className="px-3">
+                <p className="px-3 mb-3">
                   <strong>Create your account!</strong>
                   <br />
                   <small>
@@ -170,7 +169,7 @@ const NavBarHero = () => {
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <p className="">
+                <p className="mb-0 d-flex align-items-center">
                   <svg className="icon" width="32" height="32">
                     <use href="#search-icon"></use>
                   </svg>
@@ -181,37 +180,45 @@ const NavBarHero = () => {
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <svg className="icon" width="32" height="32">
-                  <use href="#heart-icon"></use>
-                </svg>
-                Follow Arts Organizations
+                <p className="mb-0 d-flex align-items-center">
+                  <svg className="icon" width="32" height="32">
+                    <use href="#heart-icon"></use>
+                  </svg>
+                  Follow Arts Organizations
+                </p>
               </li>
               <li>
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <svg className="icon" width="28" height="28">
-                  <use href="#star-icon"></use>
-                </svg>
-                Highlight Video
+                <p className="mb-0 d-flex align-items-center">
+                  <svg className="icon" width="32" height="28">
+                    <use href="#star-icon"></use>
+                  </svg>
+                  Highlight Video
+                </p>
               </li>
               <li>
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <svg className="icon" width="32" height="32">
-                  <use href="#megaphone-icon"></use>
-                </svg>
-                Latest News
+                <p className="mb-0 d-flex align-items-center">
+                  <svg className="icon" width="32" height="32">
+                    <use href="#megaphone-icon"></use>
+                  </svg>
+                  Latest News
+                </p>
               </li>
               <li>
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <svg className="icon" width="26" height="26">
-                  <use href="#film-icon"></use>
-                </svg>
-                Watch
+                <p className="mb-0 d-flex align-items-center">
+                  <svg className="icon" width="32" height="28">
+                    <use href="#film-icon"></use>
+                  </svg>
+                  Watch
+                </p>
               </li>
             </ul>
           </div>
